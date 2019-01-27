@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tic Tac Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+   
+</head>
+<body>
+
+<header>
+<h1>Tic Tac Toe Game</h1>
+
+</header>
+<aside>
+        <button onclick="playAudio()" type="button">Play Audio</button>
+        <audio id="myAudio">
+                <source src="Simple Inspiration Piano.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+</aside>
+
+
+<section class="container">
+    <p id="player1"> X
+        <span>0</span>
+    </p>
+
+    <p id="player2"> O
+        <span>0 </span>
+    </p>
+</section>
+
+<section class="border">
+       
+
+      <table id="myTable">
+            <tr>
+              <td class="grid-item"></td>
+              <td class="grid-item"></td>
+              <td class="grid-item"></td>
+            </tr>
+            <tr>
+              <td class="grid-item"></td>
+              <td class="grid-item"></td>
+              <td class="grid-item"></td>
+            </tr>
+            <tr>
+                    <td class="grid-item"></td>
+                    <td class="grid-item"></td>
+                    <td class="grid-item"></td>
+                  </tr>
+          </table>
+</section>
+
+<section id="buttons" style="text-align:center";>
+    <button>Start Game</button>
+    <button>Restart</button>
+</section>
+
+<footer></footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>   
+<script src="main.js"></script>
+</body>
+</html>
