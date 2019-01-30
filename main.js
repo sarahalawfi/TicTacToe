@@ -234,20 +234,7 @@ $('#clear-score').on('click', clearScore);
 
 
 
-// //play with computer.
-// function playWithComputer(){
 
-//     switch(){
-//         case 1:
-
-//         break;
-//         case 0:
-
-//         break;
-//     }
-// }
-
-//$('.grid-item').on('click',findCell);
 
 //play with computer.
 // function playWithComputer(){
