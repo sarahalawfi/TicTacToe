@@ -17,7 +17,7 @@
 <aside>
         <button onclick="playAudio()" type="button">Play Audio</button>
         <audio id="myAudio">
-                <source src="Simple Inspiration Piano.mp3" type="audio/mpeg">
+                <source src="game-of-thrones-theme-song-ringtone-30782.mp3" type="audio/mp3">
               Your browser does not support the audio element.
               </audio>
 </aside>
@@ -25,11 +25,11 @@
 
 <section class="container">
     <p id="player1"> X
-        <span>0</span>
+        <span id="X">0</span>
     </p>
 
     <p id="player2"> O
-        <span>0 </span>
+        <span id="O">0 </span>
     </p>
 </section>
 
@@ -38,31 +38,39 @@
 
       <table id="myTable">
             <tr>
-              <td class="grid-item"></td>
-              <td class="grid-item"></td>
-              <td class="grid-item"></td>
+              <td class="grid-item" id='0'></td>
+              <td class="grid-item" id='1'></td>
+              <td class="grid-item" id='2'></td>
             </tr>
             <tr>
-              <td class="grid-item"></td>
-              <td class="grid-item"></td>
-              <td class="grid-item"></td>
+              <td class="grid-item" id='3'></td>
+              <td class="grid-item" id='4'></td>
+              <td class="grid-item" id='5'></td>
             </tr>
             <tr>
-                    <td class="grid-item"></td>
-                    <td class="grid-item"></td>
-                    <td class="grid-item"></td>
+                    <td class="grid-item"id='6'></td>
+                    <td class="grid-item" id='7'></td>
+                    <td class="grid-item" id='8'></td>
                   </tr>
           </table>
 </section>
 
 <section id="buttons" style="text-align:center";>
-    <button>Start Game</button>
-    <button>Restart</button>
+    <!--<button id="StartGame">Start Game</button>-->
+    <button id="Reset">Restart</button>
+    <button id="clear-score">New Game</button>
+    <button id="play-with-computer">play with computer</button>
+
+   
 </section>
 
-<footer></footer>
+
+<footer>
+     CopyRight By Sarah.
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>   
 <script src="main.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>

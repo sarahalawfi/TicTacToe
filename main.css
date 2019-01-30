@@ -29,6 +29,11 @@ h1 {
      height:50px ;
    
   }
+  td{
+      text-align: center;
+  }
+  td:hover{
+  background-color:gray;}
 /*audio*/
   aside{
      margin-left: 1020px;
@@ -81,3 +86,38 @@ span{
     font-size: 20px;
     display: block;
 }
+
+/*pop up massage*/
+.swal-footer{
+    text-align: center;
+   
+}
+.swal-button{
+    background-color: rgba(190,175,175,0.4);}
+   
+
+
+    .swal-modal{
+        background-color: #EDE9EA;
+
+    }
+    /*to start the game.*/
+    a{
+       
+            text-decoration: none;
+            color:beige;
+    
+        
+    }
+    .Game-instructions{
+       padding: 50px;
+       margin: 100px auto ;
+       text-align: center;
+
+    }
+    ul{
+        font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    list-style: none;
+    }
