@@ -8,7 +8,7 @@
 
 ## The Game
 
-![alt text](firstpage.png"The first page" )
+![alt text](firstpage.png "The first page" )
 ![alt text](secondpage.png "The game page")
 
 ## The Features 
